@@ -1,1 +1,44 @@
 
+
+%%%%%%file function.py %%%%%
+
+
+def fun(a,b):
+    return (a*2,b*2)
+
+def fun2(a,b,c):
+    return a+b+c
+    
+ 
+ 
+%%%%%file function.py ended %%%%%%%
+
+
+
+%%%%running file  let it be  temp.py%%%%%
+
+
+import function
+
+a=10
+b=20
+print(function.fun(a,b))
+print(function.fun2(10,20,30))
+
+
+
+
+%%%%%%%%%file ended    (was saved at the same location)   %%%%%
+
+
+%%%%%%%%%%%  OR %%%%%%%%%%%%%%%
+
+from function import * 
+
+a=10
+b=20
+print(fun(a,b))
+print(fun2(10,20,30))
+
+
+%%%%%%%%%%  shows error but runs  %%%%%
